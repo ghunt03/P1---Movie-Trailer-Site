@@ -1,0 +1,43 @@
+body{
+	padding-top: 80px;
+}
+#trailer .modal-dialog{
+	margin-top: 200px;
+	width: 640px;
+	height: 480px;
+}
+#trailer-video{
+	width: 100%;
+	height: 100%;
+}
+.episode_list .modal-dialog{
+	margin-top: 200px;
+}
+.episode_list .modal-content{
+	width: 640px;
+	height: 640px;
+}
+.modal-header{
+	background-color: #99CCFF;
+	font-size: 14pt;
+}
+.row{
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+.row: hover{
+	background-color: #EEE;
+}
+.scale-media{
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.scale-media iframe{
+	border: none;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: white;
+}
